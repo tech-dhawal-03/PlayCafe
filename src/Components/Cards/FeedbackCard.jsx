@@ -163,8 +163,8 @@ export default function customerFeedback() {
                                             ))}
 
                                     </h2>
-                                    <p className="justify-center text-xl text-justify mt-4 text-black">{reviews.review}</p>
-                                    <h1 className="text-2xl text-center text-black">~{reviews.name}</h1>
+                                    <p className="justify-center text-xl text-justify mt-4">{reviews.review}</p>
+                                    <h1 className="text-2xl text-center">~{reviews.name}</h1>
                                 </div>
                             </div>
                         </div>

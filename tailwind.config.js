@@ -30,8 +30,5 @@ export default {
     require('daisyui'),
   ],
 
-  colors: {
-    bodyBg: '#F5F5F5',   // Custom background color for the body
-    bodyText: '#333333',  // Custom text color for the body
-  },
+  
 }
