@@ -1,3 +1,5 @@
+
+
 //** @type {import('tailwindcss').Config} */
 export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
@@ -23,5 +25,13 @@ export default {
       },
     },
   },
-  plugins: [],
+  
+  plugins: [
+    require('daisyui'),
+  ],
+
+  colors: {
+    bodyBg: '#F5F5F5',   // Custom background color for the body
+    bodyText: '#333333',  // Custom text color for the body
+  },
 }
